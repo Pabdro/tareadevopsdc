@@ -1,0 +1,7 @@
+USE formulario;
+
+CREATE TABLE IF NOT EXISTS personas (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  nombre VARCHAR(255),
+  apellido VARCHAR(255)
+);
